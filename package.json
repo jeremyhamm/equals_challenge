@@ -1,0 +1,20 @@
+{
+  "name": "sumifs-solution",
+  "version": "1.0.0",
+  "description": "SUMIFS solution",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start:samples": "ts-node-dev --respawn --transpile-only src/index.ts ./sample_csv_data.csv ./sample_queries.json"
+  },
+  "author": "Jeremy Hamm <jh@jeremyhamm.dev>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "csv-parse": "^5.5.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

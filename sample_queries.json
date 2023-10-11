@@ -1,0 +1,4 @@
+{ "name": "paid invoices", "sum_column": "C", "criteria": [ { "column": "G", "value": "paid", "operator": "=" } ], "expected_result": 13411650 }
+{ "name": "paid first invoices", "sum_column": "C", "criteria": [ { "column": "G", "value": "paid", "operator": "=" }, { "column": "F", "value": 1, "operator": "=" } ], "expected_result": 913480 }
+{ "name": "sum by customer cus_OmZ4M2Nip7x0Tw", "sum_column": "C", "criteria": [ { "column": "A", "value": "cus_OmZ4M2Nip7x0Tw", "operator": "=" } ], "expected_result": 5155590 }
+{ "name": "sum where invoice amount > 100000", "sum_column": "C", "criteria": [ { "column": "C", "value": 100000, "operator": ">" } ], "expected_result": 34337760 }
