@@ -1,4 +1,4 @@
-# EQUALS SUMIF Challenge
+# SUMIF Challenge
 
 ## Solution Explanation
 1. Parse csv file into an array of objects which is easy to work with in Javascript.
